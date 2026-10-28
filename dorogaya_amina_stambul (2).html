@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111615">
+<title>Дорогая Амина — другой Стамбул</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111615;--paper:#f1eee6;--muted:#a9aca6;--gold:#d7b681;--line:rgba(255,255,255,.2)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:#f8f6f0;font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.nav{height:74px;padding:0 6vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:absolute;top:0;left:0;right:0;z-index:5}.brand{display:flex;align-items:center;gap:12px;font-family:"Playfair Display",serif;font-size:22px;letter-spacing:.3px}.brand small{display:block;font:10px "DM Sans",sans-serif;color:#c7c6c0;letter-spacing:1.2px}.brandmark{font-size:30px;color:var(--gold)}.navlinks{display:flex;gap:28px;font-size:12px;color:#e4e1d9}.navlinks a:hover{color:var(--gold)}.navbtn{border:1px solid var(--gold);border-radius:30px;padding:12px 18px;font-size:12px}.hero{min-height:650px;display:flex;align-items:center;padding:125px 6vw 70px;position:relative;isolation:isolate;background:#18201f url('https://images.unsplash.com/photo-1769501210990-a56025a9385a?auto=format&fit=crop&w=1200&q=85') center 45%/cover}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,15,16,.94) 0%,rgba(9,15,16,.68) 42%,rgba(9,15,16,.12) 100%),linear-gradient(0deg,rgba(9,15,16,.5),transparent 55%);z-index:-1}.hero-copy{max-width:650px}.eyebrow{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:18px}.hero h1{font:clamp(48px,6.3vw,82px)/.99 "Playfair Display",serif;letter-spacing:-1.5px;font-weight:400;margin:0 0 24px}.hero p{max-width:470px;color:#e0e1dc;font-size:15px;line-height:1.8}.pill{display:inline-flex;align-items:center;gap:12px;background:#f6f3ec;color:#111615;padding:15px 22px;border-radius:30px;font-size:13px;font-weight:600;margin-top:18px;transition:.2s}.pill:hover{transform:translateY(-2px);background:var(--gold)}.scribble{position:absolute;right:8%;top:31%;font:italic 27px "Playfair Display",serif;line-height:1.15;transform:rotate(-9deg);color:#f4eee3;text-shadow:0 2px 12px #0008}.intro{padding:74px 6vw 42px;display:flex;justify-content:space-between;align-items:end;gap:30px}.intro h2{font:clamp(32px,4vw,48px)/1.1 "Playfair Display",serif;font-weight:400;margin:0;max-width:600px}.intro p{max-width:390px;color:#b8bcb5;font-size:13px;line-height:1.8;margin:0}.place{padding:46px 6vw 56px;display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.5fr);gap:5vw;align-items:center;border-top:1px solid #ffffff14}.place.light{background:var(--paper);color:#142020}.place.light .place-desc,.place.light .meta{color:#545b57}.place.light .tag{border-color:#c9c8c0}.num{font-size:12px;color:var(--gold);letter-spacing:2px;margin-bottom:15px}.light .num{color:#88714f}.place h3{font:clamp(35px,4.2vw,54px)/1.08 "Playfair Display",serif;font-weight:400;margin:0 0 14px}.meta{font-size:12px;color:#c2c5bf;margin-bottom:22px;display:flex;align-items:center;gap:8px}.pin{color:var(--gold);font-size:16px}.place-desc{font-size:13px;line-height:1.85;color:#c4c8c1;max-width:390px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.tag{font-size:10px;border:1px solid #ffffff4d;border-radius:20px;padding:8px 12px;color:inherit}.gallery{display:grid;grid-template-columns:1.45fr .8fr;grid-template-rows:180px 180px;gap:10px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:4px;display:block;background:#303a36}.gallery img:first-child{grid-row:span 2}.place:nth-of-type(odd) .gallery{order:-1}.facts{display:flex;gap:22px;flex-wrap:wrap;margin-top:24px;font-size:11px;color:#b6b9b2}.light .facts{color:#68716a}.fact strong{display:block;font-size:16px;font-weight:500;margin-bottom:3px;color:var(--gold)}.light .fact strong{color:#8e6f42}.route{padding:80px 6vw;background:#d9c9ad;color:#16201e;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.route h2{font:clamp(36px,4.5vw,56px)/1.08 "Playfair Display",serif;font-weight:400;margin:0 0 18px}.route p{font-size:13px;line-height:1.8;max-width:450px;color:#454d46}.route-list{border-top:1px solid #8b8a7d}.route-item{display:flex;gap:18px;padding:17px 0;border-bottom:1px solid #8b8a7d;font-size:13px}.route-item span{color:#886c43}.route .pill{background:#14201e;color:white}.footer{padding:34px 6vw;display:flex;justify-content:space-between;align-items:center;gap:20px;color:#aeb3ad;font-size:11px}.footer strong{font:22px "Playfair Display",serif;color:#f6f1e8;font-weight:400}.footer a{color:var(--gold)}.note{font-size:10px;color:#929890;padding:0 6vw 28px;line-height:1.6}
+@media(max-width:760px){.nav{height:66px;padding:0 5vw}.navlinks{display:none}.navbtn{padding:10px 12px}.hero{min-height:630px;padding:120px 6vw 55px;background-position:57% center}.hero h1{font-size:54px}.scribble{right:7%;top:auto;bottom:70px;font-size:21px}.intro{padding:52px 6vw 28px;display:block}.intro p{margin-top:18px}.place{grid-template-columns:1fr;padding:38px 6vw 45px;gap:28px}.gallery{grid-template-rows:160px 160px}.place:nth-of-type(odd) .gallery{order:0}.route{grid-template-columns:1fr;padding:55px 6vw;gap:30px}.footer{align-items:flex-start;flex-direction:column}.place h3{font-size:42px}}
+</style>
+
+<style id="polish">
+/* ===== Polish: контраст, композиция, эстетика ===== */
+::selection{background:var(--gold);color:#111615}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+/* навигация: стеклянная панель, текст всегда читаем */
+.nav{position:fixed;background:rgba(14,19,18,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid rgba(215,182,129,.28)}
+.navlinks{color:#f1eee6;font-size:13px}
+.navbtn{background:rgba(215,182,129,.12);color:#f6e9d0;transition:.25s}
+.navbtn:hover{background:var(--gold);color:#111615}
+html{scroll-padding-top:80px}
+/* hero: более плотная подложка под текстом */
+.hero:before{background:linear-gradient(90deg,rgba(9,15,16,.97) 0%,rgba(9,15,16,.85) 46%,rgba(9,15,16,.3) 100%),linear-gradient(0deg,rgba(9,15,16,.7),transparent 60%)}
+.hero{flex-direction:column;align-items:flex-start;justify-content:center;min-height:720px}
+.hero h1{text-shadow:0 4px 30px rgba(0,0,0,.45)}
+.hero p{color:#eef0ea;font-size:17px;line-height:1.75}
+.eyebrow{color:#e6c797;font-size:12px}
+.pill{box-shadow:0 10px 30px -10px rgba(0,0,0,.6)}
+/* записка больше не налезает на текст */
+.scribble{position:static;margin-top:34px;transform:rotate(-2deg);font-size:24px;padding:16px 24px;border-radius:14px;background:rgba(9,15,16,.62);border:1px solid rgba(215,182,129,.4);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);text-shadow:none;color:#fbf3e4}
+/* вступление */
+.intro p{color:#d3d6cf;font-size:15px}
+.intro h2{position:relative;padding-bottom:18px}
+.intro h2:after{content:"";position:absolute;left:0;bottom:0;width:64px;height:2px;background:var(--gold)}
+/* блоки мест */
+.place{padding:80px 6vw;gap:4.5vw}
+.place:not(.light){background:radial-gradient(900px 420px at 88% 0,rgba(215,182,129,.09),transparent 62%),var(--ink)}
+.place.light{background:radial-gradient(900px 420px at 10% 0,rgba(215,182,129,.22),transparent 60%),var(--paper);grid-template-columns:minmax(0,1.5fr) minmax(260px,.82fr)}
+.place:nth-of-type(odd) .gallery{order:0}
+.num{color:#e6c797;font-size:12px;font-weight:600}
+.light .num{color:#7a5a2c}
+.place h3{position:relative;padding-bottom:18px;margin-bottom:18px}
+.place h3:after{content:"";position:absolute;left:0;bottom:0;width:52px;height:2px;background:var(--gold)}
+.light h3:after{background:#8e6f42}
+.meta{color:#dadcd5;font-size:13.5px}
+.place-desc{color:#dde0d9;font-size:15.5px;line-height:1.8;max-width:440px}
+.place.light .place-desc{color:#333a35}
+.place.light .meta{color:#454c47}
+.tag{font-size:12px;padding:8px 14px;color:#f1efe8;border:1px solid rgba(255,255,255,.38);background:rgba(255,255,255,.06)}
+.place.light .tag{color:#2c332e;border-color:#b3b0a4;background:rgba(0,0,0,.04)}
+.facts{font-size:12.5px;color:#d3d6cf;gap:14px}
+.light .facts{color:#454c47}
+.fact{padding:12px 16px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);min-width:120px}
+.light .fact{background:rgba(255,255,255,.65);border-color:#d6d2c6}
+.fact strong{color:#e6c797;font-size:17px}
+.light .fact strong{color:#7a5a2c}
+.place.light .place-desc a{color:#7a5a2c;font-weight:600;border-bottom:1px solid currentColor}
+/* галереи */
+.gallery{gap:12px}
+.gallery img{border-radius:16px;box-shadow:0 22px 44px -22px rgba(0,0,0,.65);transition:transform .6s cubic-bezier(.2,.7,.2,1),filter .4s;position:relative}
+.gallery img:hover{transform:scale(1.025);z-index:2;filter:saturate(1.08)}
+/* маршрут */
+.route{background:linear-gradient(135deg,#e3d5bb,#d2bf9d);padding:96px 6vw}
+.route p{color:#2b332d;font-size:15.5px}
+.route-list{border:0}
+.route-item{font-size:15px;padding:18px 20px;margin-bottom:12px;border:1px solid rgba(20,32,30,.14);border-radius:14px;background:rgba(255,255,255,.5);transition:.25s;color:#16201e}
+.route-item:hover{transform:translateX(6px);background:rgba(255,255,255,.75)}
+.route-item span{color:#7a5a2c;font:600 18px "Playfair Display",serif}
+.route-item div{color:#3a423c}
+.route-item strong{color:#16201e}
+/* низ */
+.footer{padding:44px 6vw 30px;color:#cbd0c9;font-size:13px;border-top:1px solid rgba(215,182,129,.25)}
+.note{color:#b4b9b2;font-size:11.5px;line-height:1.7;max-width:980px}
+.note a,.footer a{color:#e6c797}
+/* плавное появление */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.gallery img,.route-item{transition:none}}
+@media(max-width:760px){
+ .hero{min-height:680px;padding:110px 6vw 50px}
+ .hero p{font-size:16px}
+ .scribble{font-size:20px;padding:14px 20px}
+ .place,.place.light{grid-template-columns:1fr;padding:56px 6vw;gap:30px}
+ .place-desc{font-size:15px;max-width:none}
+ .fact{min-width:0;flex:1 1 130px}
+ .route{padding:64px 6vw}
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top"><span class="brandmark">⌁</span><span>İstanbul<small>BEYOND THE CLASSICS</small></span></a>
+  <nav class="navlinks"><a href="#top">Главная</a><a href="#route">Маршрут</a><a href="#places">О местах</a><a href="#end">Контакты</a></nav>
+  <a class="navbtn" href="#route">⌖　Открыть маршрут</a>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">Небольшое путешествие для тебя</div>
+    <h1>Дорогая<br>Амина</h1>
+    <p>Я собрал для тебя четыре необычных места Стамбула — с историей, искусством и архитектурой, которые хочется открывать не спеша.</p>
+    <a class="pill" href="#places">Начать экскурсию <span>↗</span></a>
+  </div>
+  <div class="scribble">Для тебя —<br>с теплом.</div>
+</section>
+<section class="intro" id="places">
+  <div><div class="eyebrow">Авторский маршрут · 04 места</div><h2>Неочевидные места.<br>Новые впечатления.</h2></div>
+  <p>Маршрут для любопытных: архитектура, искусство, история и городская жизнь. Сохрани страницу и отправляйся исследовать Стамбул в своём ритме.</p>
+</section>
+
+<section class="place">
+ <div class="place-info">
+  <div class="num">01 / СКРЫТАЯ АТМОСФЕРА</div><h3>Diri Han</h3>
+  <div class="meta"><span class="pin">⌖</span> Hobyar · Fatih · Eminönü</div>
+  <p class="place-desc">Исторический торговый хан, который стал известен благодаря эффектной лестнице, уходящей вверх среди зелени. Это не музей, а действующее коммерческое здание — заглядывай уважительно и уточняй, можно ли фотографировать.</p>
+  <div class="tags"><span class="tag">Историческая архитектура</span><span class="tag">Фото-точка</span><span class="tag">Скрытый Стамбул</span></div>
+ </div>
+ <div class="gallery">
+  <img src="https://images.unsplash.com/photo-1769501210990-a56025a9385a?auto=format&fit=crop&w=1200&q=85" alt="Детали старинной архитектуры" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1769501210990-a56025a9385a?auto=format&fit=crop&w=1200&q=85" alt="Архитектурные линии и лестничный пролёт" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1769501210990-a56025a9385a?auto=format&fit=crop&w=1200&q=85" alt="Зелень и спокойная атмосфера" loading="lazy">
+ </div>
+</section>
+
+<section class="place light">
+ <div class="gallery">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salt_Galata,_2024.jpg?width=1200" alt="Современная художественная выставка" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Library_of_Salt_Galata,_2024.jpg?width=900" alt="Картины в галерее" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salt_Galata.jpg?width=900" alt="Экспозиция современного искусства" loading="lazy">
+ </div>
+ <div class="place-info">
+  <div class="num">02 / ИСКУССТВО И ИСТОРИЯ</div><h3>SALT Galata</h3>
+  <div class="meta"><span class="pin">⌖</span> Bankalar Caddesi 11 · Karaköy</div>
+  <p class="place-desc">Бывшая штаб-квартира Османского банка, сегодня — культурное пространство с выставками, исследовательской библиотекой и музеем. Здесь особенно интересно рассматривать архитектуру здания и задержаться на кофе после экспозиции.</p>
+  <div class="tags"><span class="tag">Бесплатный вход</span><span class="tag">Архитектура</span><span class="tag">Выставки</span></div>
+ </div>
+</section>
+
+<section class="place">
+ <div class="place-info">
+  <div class="num">03 / ИНДУСТРИАЛЬНОЕ НАСЛЕДИЕ</div><h3>Artİstanbul<br>Feshane</h3>
+  <div class="meta"><span class="pin">⌖</span> Eyüpsultan · берег Золотого Рога</div>
+  <p class="place-desc">Бывший промышленный комплекс получил новую жизнь как большое пространство современного искусства. Здесь историческая кирпичная архитектура встречается с выставками, культурными событиями и набережной Золотого Рога.</p>
+  <div class="tags"><span class="tag">Современное искусство</span><span class="tag">История</span><span class="tag">Набережная</span></div>
+ </div>
+ <div class="gallery">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul_Feshane_Art%C4%B0stanbul_exterior_in_october_2023_5160.jpg?width=1200" alt="Большое выставочное пространство" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Artistanbul_Feshane_%281%29.jpg?width=900" alt="Работы в художественной галерее" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_Artistanbul_Feshane_1.jpg?width=900" alt="Индустриальная архитектура" loading="lazy">
+ </div>
+</section>
+
+<section class="place light">
+ <div class="gallery">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kanyon_Shopping_Mall.jpg?width=1200" alt="Современная городская архитектура" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kanyon_Mall_Istanbul_51.jpg?width=900" alt="Городская архитектура крупным планом" loading="lazy">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul_Kanyon.jpg?width=900" alt="Современные магазины и интерьер" loading="lazy">
+ </div>
+ <div class="place-info">
+  <div class="num">04 / ГОРОД БУДУЩЕГО</div><h3>Kanyon</h3>
+  <div class="meta"><span class="pin">⌖</span> Büyükdere Caddesi 185 · Levent</div>
+  <p class="place-desc">Торговый центр, который больше похож на современный городской каньон под открытым небом. Изогнутые линии, террасы, рестораны и необычная архитектура делают его интересной остановкой даже для тех, кто не планирует шопинг.</p>
+  <div class="tags"><span class="tag">Архитектура</span><span class="tag">Кофе и еда</span><span class="tag">Современный Стамбул</span></div>
+ </div>
+</section>
+
+<section class="route" id="route">
+ <div><div class="eyebrow">План путешествия</div><h2>Четыре места.<br>Один другой город.</h2><p>Лучше распределить точки на целый день или на два коротких выхода: первые две находятся в историческом центре, Feshane — у Золотого Рога, а Kanyon — в деловом районе Levent.</p></div>
+ <div class="route-list">
+  <div class="route-item"><span>01</span><div><strong>Diri Han</strong><br>Начни с тихих улочек Eminönü</div></div>
+  <div class="route-item"><span>02</span><div><strong>SALT Galata</strong><br>Архитектура, выставка и кофе в Karaköy</div></div>
+  <div class="route-item"><span>03</span><div><strong>Artİstanbul Feshane</strong><br>Искусство и прогулка у Золотого Рога</div></div>
+  <div class="route-item"><span>04</span><div><strong>Kanyon</strong><br>Заверши день современной архитектурой</div></div>
+ </div>
+</section>
+</main>
+<footer class="footer" id="end"><div><strong>Другой Стамбул</strong><br>Авторская идея для городской экскурсии</div><div>Смотри внимательнее. Открывай новое.</div><a href="#top">Наверх ↑</a></footer>
+<div class="note">Фотоисточники: <a href="https://unsplash.com/photos/interior-view-of-a-building-with-a-spiral-staircase-WULTe87HJ7Q" target="_blank" rel="noopener">Diri Han / Onur Can Elma</a> · <a href="https://commons.wikimedia.org/wiki/File:Salt_Galata,_2024.jpg" target="_blank" rel="noopener">SALT Galata</a> · <a href="https://commons.wikimedia.org/wiki/File:Istanbul_Feshane_Art%C4%B0stanbul_exterior_in_october_2023_5160.jpg" target="_blank" rel="noopener">Artİstanbul Feshane</a> · <a href="https://commons.wikimedia.org/wiki/File:Kanyon_Shopping_Mall.jpg" target="_blank" rel="noopener">Kanyon</a>. Фотографии локаций взяты из Unsplash и Wikimedia Commons. Перед коммерческой публикацией проверь условия лицензии и добавь атрибуцию авторов там, где она требуется.</div>
+<script>
+(function(){
+ var els=document.querySelectorAll('.intro,.place-info,.gallery,.route>div');
+ if(!('IntersectionObserver' in window)) return;
+ els.forEach(function(e){e.classList.add('rv')});
+ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+ els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
